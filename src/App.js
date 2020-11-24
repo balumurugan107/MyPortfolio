@@ -12,6 +12,8 @@ import { Parallax, Background } from "react-parallax";
 import TimeLine from "./components/timelines/timeline.jsx";
 import Particles from "react-particles-js";
 import {particlesOptions} from "./particlesOption.js";
+import Contact from "./pages/contacts/contact.jsx";
+import FooterPanel from "./pages/footers/footer.jsx";
 function App() {
   return(
     <div className="App">
@@ -53,6 +55,16 @@ function App() {
      </Slide>
        </Container>
      </div>
+     <div >
+<Container className = "container-box rounded" >
+<Slide bottom duration = {1000} >
+<hr / >
+<Contact / >
+ </Slide>
+</Container>
+ </div>
+ <FooterPanel / >
+<hr / >
     </div>
 );
 }

@@ -7,6 +7,8 @@ import {
 } from '@merc/react-timeline';
 import "./mytimeline.css";
 import Tindog from "./../../assets/img/projects/tindogimg.webp";
+import Drumkit from "./../../assets/img/projects/drumkit.webp";
+import Javascript from "./../../assets/img/projects/javascript_logo.webp";
 
 
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
