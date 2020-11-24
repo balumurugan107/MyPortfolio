@@ -1,0 +1,19 @@
+#Contact{
+  background-color:#00BFFF;
+}
+
+.contact-jumbotron {
+  background-image: url("../../assets/img/background/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 160px;
+  height: 40px;
+  width: 1000px;
+  margin-bottom:0px;
+}
+.button-grp{
+  position:absolute;
+  bottom:30px;
+  left:0px;
+  right:0px;
+}

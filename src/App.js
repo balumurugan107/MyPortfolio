@@ -10,12 +10,15 @@ import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import { Parallax, Background } from "react-parallax";
 import TimeLine from "./components/timelines/timeline.jsx";
+import Particles from "react-particles-js";
+import {particlesOptions} from "./particlesOption.js";
 function App() {
   return(
     <div className="App">
         <MyNavbar />
         <Carousels />
         <TitleMessage />
+        <Particles className = "particles particles-box" params = {particlesOptions}/>
        <div>
 
         <Parallax
