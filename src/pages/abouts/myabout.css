@@ -8,5 +8,7 @@
 }
 
 .my-details {
-  background-color: rgba(255, 255, 255, 0.747);
+  background-color: #fff;
+  margin-bottom:25px;
+  box-shadow:35px;
 }

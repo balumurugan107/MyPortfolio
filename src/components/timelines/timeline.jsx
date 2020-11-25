@@ -100,11 +100,11 @@ function TimeLine(){
                         <span className="p-2">
                           <Image
                             src={L_BOOTSTRAP4}
-                            alt="bootstrap"
+                            alt="Bootstrap4"
                             rounded
                             className="image-style1 m-1"
                           ></Image>{" "}
-                          Bootstrap
+                          Bootstrap4
                         </span>
                       </li>
 
@@ -117,7 +117,7 @@ function TimeLine(){
           </div>
           <div className="d-flex justify-content-between flex-nowrap text-center">
             <UrlButton
-              href="https://balumurugan107.github.io/tindog/"
+              href=""
               target="_blank"
             >
               SEE LIVE
@@ -135,96 +135,95 @@ function TimeLine(){
 
 
       <ImageEvent
-date="01/10/2020"
-className="text-center"
-text="Drumkit"
-src={Drumkit}
-alt="drums"
+  date="01/10/2020"
+  className="text-center"
+  text="Drumkit"
+  src={Drumkit}
+  alt="drums"
 >
-<div className="d-flex justify-content-between flex-column mt-1">
-  <div>
-    <Accordion>
-      <Card>
-        <Accordion.Toggle
-          as={Card.Header}
-          eventKey="0"
-          className="p-2 text-center accordian-main"
-        >
-          PROJECT DETAILS
-        </Accordion.Toggle>
+  <div className="d-flex justify-content-between flex-column mt-1">
+    <div>
+      <Accordion>
+        <Card>
+          <Accordion.Toggle
+            as={Card.Header}
+            eventKey="0"
+            className="p-2 text-center accordian-main"
+          >
+            PROJECT DETAILS
+          </Accordion.Toggle>
 
-        <Accordion.Collapse eventKey="0" className="text-left">
-          <Card.Body>
-            <strong>Description:</strong> This app is created with Javascript that helps in mating the dogs
-            <hr />
-            <strong>Features:</strong>
-            <ul className="list-styles pt-1">
-              <li>fun app for drum sounds</li>
-              <li>Powered by <strong>Javascript</strong></li>
-              <li>DOM features used more</li>
-            </ul>
-            <hr />
-            <strong>Tech used:</strong>
-            <ul>
-              <li>
-                <span className="p-2">
-                  <Image
-                    src={L_HTML5}
-                    alt="HTML 5"
-                    rounded
-                    className="image-style m-1"
-                  ></Image>{" "}
-                  HTML5
-                </span>
-              </li>
-              <li>
-                <span className="p-2">
-                  <Image
-                    src={L_CSS3}
-                    alt="CSS 3"
-                    rounded
-                    className="image-style m-1"
-                  ></Image>{" "}
-                  CSS3
-                </span>
-              </li>
-              <li>
-                <span className="p-2">
-                  <Image
-                    src={Javascript}
-                    alt="javascript"
-                    rounded
-                    className="image-style1 m-1"
-                  ></Image>{" "}
-                  Javascript
-                </span>
-              </li>
+          <Accordion.Collapse eventKey="0" className="text-left">
+            <Card.Body>
+              <strong>Description:</strong> This app is created with Javascript that helps in mating the dogs
+              <hr />
+              <strong>Features:</strong>
+              <ul className="list-styles pt-1">
+                <li>fun app for drum sounds</li>
+                <li>Powered by <strong>Javascript</strong></li>
+                <li>DOM features used more</li>
+              </ul>
+              <hr />
+              <strong>Tech used:</strong>
+              <ul>
+                <li>
+                  <span className="p-2">
+                    <Image
+                      src={L_HTML5}
+                      alt="HTML 5"
+                      rounded
+                      className="image-style m-1"
+                    ></Image>{" "}
+                    HTML5
+                  </span>
+                </li>
+                <li>
+                  <span className="p-2">
+                    <Image
+                      src={L_CSS3}
+                      alt="CSS 3"
+                      rounded
+                      className="image-style m-1"
+                    ></Image>{" "}
+                    CSS3
+                  </span>
+                </li>
+                <li>
+                  <span className="p-2">
+                    <Image
+                      src={Javascript}
+                      alt="javascript"
+                      rounded
+                      className="image-style1 m-1"
+                    ></Image>{" "}
+                    Javascript
+                  </span>
+                </li>
 
 
-            </ul>
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
+              </ul>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+    </div>
+    <div className="d-flex justify-content-between flex-nowrap text-center">
+      <UrlButton
+        href="https://balumurugan107.github.io/Drum-Kit/"
+        target="_blank"
+      >
+        SEE LIVE
+      </UrlButton>
+      <UrlButton
+        href="https://github.com/balumurugan107/Drum-Kit"
+        target="_blank"
+      >
+        SOURCE CODE
+      </UrlButton>
+
+    </div>
   </div>
-  <div className="d-flex justify-content-between flex-nowrap text-center">
-    <UrlButton
-      href="https://balumurugan107.github.io/Drum-Kit/"
-      target="_blank"
-    >
-      SEE LIVE
-    </UrlButton>
-    <UrlButton
-      href="https://github.com/balumurugan107/Drum-Kit"
-      target="_blank"
-    >
-      SOURCE CODE
-    </UrlButton>
-
-  </div>
-</div>
 </ImageEvent>
-
 
 
             </Events>

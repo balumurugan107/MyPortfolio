@@ -1,6 +1,4 @@
-#Contact{
-  background-color:#00BFFF;
-}
+
 
 .contact-jumbotron {
   background-image: url("../../assets/img/background/background.webp");
@@ -9,7 +7,7 @@
   margin-left: 160px;
   height: 40px;
   width: 1000px;
-  margin-bottom:0px;
+  margin-bottom:40px;
 }
 .button-grp{
   position:absolute;

@@ -15,7 +15,7 @@ function About() {
     <Row>
       <Col xs={12} md={6}>
         <Row className="justify-content-center mb-2 mr-2 ">
-          <Image className="profile" src={Profile} roundedCircle="boolean"/>
+          <Image className="profile" src={Profile} roundedCircle="boolean" thumbnail fluid/>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -31,14 +31,14 @@ function About() {
               <br /> <br />
               <Col className="d-flex justify-content-center flex-wrap">
                 <div>
-                  <a href="#contact">
+                  <a href="#Contact">
                     <Button className="m-2" variant="outline-primary">
                       Let's talk
                     </Button>
                   </a>
                 </div>
                 <div>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1asO2Vi_6Hfpv5-0nk8uVc0xGRkwesZ_y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <Button className="m-2" variant="outline-success">
                       My Resume
                     </Button>
