@@ -19,7 +19,7 @@ function About() {
         </Row>
       </Col>
       <Col xs={12} md={6}>
-        <Row className="align-items-start p-2 my-details rounded">
+        <Row className="align-items-start p-2 my-details rounded cardDeck">
           Hi there! I am <strong>&nbsp;Balasubramoniam</strong>
         <br />A passionate programmer , born and brought up in India. I am a Frontend Web Developer with React.js, Redux, javascript, react-bootstrap as my tech stack.
               <br />

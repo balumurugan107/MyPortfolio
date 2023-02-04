@@ -1,14 +1,22 @@
 import Typewriter from 'typewriter-effect';
 import React from 'react';
 import styled from "styled-components";
-
+import { Col, Container, Row } from 'react-bootstrap';
+import "./titlemessage.css";
 //styleing
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
   top: 22rem;
   z-index: 1;
+  @media only screen and (max-width: 480px) and (min-width: 200px) 
+{
+  margin-top: -200px;
+}
+@media only screen and (min-width: 480px) 
+{
   margin-top: -125px;
+}
   text-align: center;
   strong {
     font-size: 1.25em;
@@ -29,20 +37,22 @@ const MyTitleMessage = styled.h1`
 `;
 const TitleMessage = () =>
    (
-  <MyTitleMessage>
+    <Container >
+      <div xs={12}>
+      <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
           Hi, I am
           <br />
-          <span>
+          <span className='name'>
             <strong>Balasubramoniam</strong>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Frontend Web Developer", "Student", "Learner"],
+              strings: ["Web Developer", "Enthusiastic", "Learner"],
               autoStart: true,
               loop: true,
               delay: 50
@@ -52,6 +62,8 @@ const TitleMessage = () =>
       </div>
     </div>
   </MyTitleMessage>
+    </div>
+    </Container>
 );
 
 export default TitleMessage;

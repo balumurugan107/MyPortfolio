@@ -25,3 +25,11 @@ hr {
   height: 100%;
   z-index: 1;
 }
+
+body {
+  overflow-x: hidden !important;
+}
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}

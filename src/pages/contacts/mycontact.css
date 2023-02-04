@@ -1,4 +1,7 @@
-
+#Contact {
+  background-color: #fff;
+  overflow: hidden;
+}
 
 .contact-jumbotron {
   background-image: url("../../assets/img/background/background.webp");
@@ -10,8 +13,11 @@
   margin-bottom:40px;
 }
 .button-grp{
-  position:absolute;
-  bottom:30px;
+  bottom:20px;
   left:0px;
   right:0px;
+}
+
+.footerHead{
+  color: #000
 }

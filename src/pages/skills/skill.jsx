@@ -11,14 +11,14 @@ function Skill(){
   return(
     <div className="p-4 p-4" id="skills">
       <h1 className="text-center font-details-b pb-4">SKILLS</h1>
-    <CardDeck style={{marginLeft:"120px"}}>
+    <CardDeck className='justify-content-around'>
         <Row className="d-flex justify-content-around">
-            <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            <Col md={4} xs={12}>
+            <Card className="focus mt-2 mb-2 cardDeck">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
                 <hr />
-              <Card.Text className="card-text text-center d-flex justify-content-start flex-column">
+              <Card.Text className="card-text text-center card-content">
                     {skills.frontend.map((skill, index) => (
                       <span className="p-2" key={index}>
                         <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
@@ -33,7 +33,7 @@ function Skill(){
 
 
         <Col md={4} >
-        <Card className="focus mt-2 mb-2 style={{ width: '18rem' }} ">
+        <Card className="focus mt-2 mb-2 cardDeck style={{ width: '18rem' }} ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
@@ -50,7 +50,7 @@ function Skill(){
             </Card>
 
 
-            <Card className="focus mt-2 mb-2 style={{ width: '18rem' }}" >
+            <Card className="focus mt-2 mb-2 cardDeck style={{ width: '18rem' }}" >
           <Card.Body>
             <Card.Title className="text-center  card-title">Version Control</Card.Title>
             <hr />
@@ -65,7 +65,7 @@ function Skill(){
         </Card>
 
 
-        <Card className="focus mt-2 mb-2 style={{ width: '18rem' }}">
+        <Card className="focus mt-2 mb-2 cardDeck style={{ width: '18rem' }}">
           <Card.Body>
             <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
             <hr />
@@ -83,7 +83,7 @@ function Skill(){
           </Col>
 
           <Col md={4}>
-            <Card className="focus mt-2 mb-2 style={{ width: '18rem' }} ">
+            <Card className="focus mt-2 mb-2 cardDeck style={{ width: '18rem' }} ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Other Skills</Card.Title>
                 <hr />

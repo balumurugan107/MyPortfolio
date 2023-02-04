@@ -2,15 +2,18 @@ import React from 'react';
 import "./mycontact.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 function mail(){
   window.open("https://www.upgrad.com/blog/front-end-developer-salary-in-india-for-freshers-experienced/#:~:text=The%20average%20entry%2Dlevel%20Front,in%20India%20is%20%E2%82%B9301%2C326.","_blank");
 }
 const Contact = () => (
+  // <Container className='caroselContainer'>
+    <Row>
+      <Col xs={12}>
   <div id="Contact">
-      <h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
-      <Jumbotron className="contact-jumbotron" >
+      <h1 className="pt-3 text-center font-details-b pb-3 footerHead">CONTACT ME</h1>
         <Row>
           <Col className="d-flex justify-content-center flex-wrap button-grp">
             <div className="m-2">
@@ -52,8 +55,9 @@ const Contact = () => (
             </div>
           </Col>
         </Row>
-      </Jumbotron>
     </div>
-
+    </Col>
+    </Row>
+    // </Container>
 );
 export default Contact;

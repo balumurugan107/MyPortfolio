@@ -3,3 +3,24 @@
 height: 100vh;
 object-fit: cover;
 }
+
+.caroselContainer{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 200px) 
+{ 
+.static-banner {
+    height: 80vh! important;
+    background-size: 100% 100% ! important;
+}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) 
+{
+.static-banner {
+    height: 75vh! important;
+    background-size: 100% 100% ! important;
+}
+}
