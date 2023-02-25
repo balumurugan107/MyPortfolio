@@ -21,3 +21,7 @@
 .image-style1 {
   width: 3em;
 }
+
+#projects > hr{
+  margin: "16px 0"
+}
